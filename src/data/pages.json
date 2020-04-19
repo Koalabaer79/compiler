@@ -1,0 +1,18 @@
+[
+    {
+        "tag": "san_francisco",
+        "name": "San Francisco"
+    },
+    {
+        "tag": "moskau",
+        "name": "Moskau"
+    },
+    {
+        "tag": "istanbul",
+        "name": "Istanbul"
+    },
+    {
+        "tag": "sydney",
+        "name": "Sydney"
+    }
+]
