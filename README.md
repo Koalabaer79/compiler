@@ -29,6 +29,16 @@ Das CSS Layout wird über Sass-Dateien gesteuert, welches transpiliert werden mu
 
 Um aus dem dynamischen Content statische HTML-Seiten zu generieren, ruft man lediglich "node deploy.js" auf. Mit diesem Script wird automatisch der Ordner "deploy" erstellt, die statischen Inhalte generiert und gespeichert.
 
+-----------------------------
+
+### Index.html
+Es wird aus den generierten Unterseiten eine Übersicht generiert. Hierbei ist zu beachten, dass in der "deploy.js" folgende Daten auf Ihr Projekt angepasst werden müssen (Zeile 14-17):
+
+- var urlName = "u-php.de";
+- var indexName = "Big Cities";
+- var imprintPath = "imprint.html";
+- var privacyPath = "privacy.html";
+
 ### Bildformate
 
 Für die qualität der Hintergrundbilder werden folgende Bildformate benötigt:
