@@ -1,3 +1,5 @@
+@import 'fonts_dev.sass'
+    
 html
     -webkit-box-sizing: border-box
     -moz-box-sizing: border-box
@@ -7,7 +9,9 @@ body
     margin: 0
     padding: 0
     background-color: #000
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: 'PT-Sans', Verdana, Geneva, Tahoma, sans-serif
+    font-weight: 400
+    font-size: 16px
 
 .wrapper1
     width: 100%
@@ -61,6 +65,7 @@ body
         height: 20px
         color: #fff
         text-align: center
+        font-size: 16px
         padding: 10px
         margin-top: 1px
         cursor: pointer
@@ -183,6 +188,9 @@ h1
     color: #ffffff
     text-shadow: 2px 2px 4px #000
 
+h1, h2
+    font-family: 'PT-Sans-Bold', Verdana, Geneva, Tahoma, sans-serif
+
 .activated
     background-color: rgba(0, 0, 0, 0.8) !important
     background: rgba(0, 0, 0, 0.8) !important
@@ -191,7 +199,7 @@ h1
 .text
     color: #fff
     position: absolute
-    top: 20px
+    top: 50px
     right: 0
     width: calc(100% - 60px)
     height: 90%
@@ -204,6 +212,7 @@ ul li
 
 p
     line-height: 25px
+    font-size: 18px
 
 .showText
     animation: 1s showText forwards
