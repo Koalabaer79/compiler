@@ -13,8 +13,8 @@ const readdir = util.promisify(fs.readdir);
 // set your Page Name - f.e. url !!!
 var urlName = "u-php.de";
 var indexName = "Big Cities";
-var imprintPath = "imprint.html";
-var privacyPath = "privacy.html";
+var imprintPath = "impressum.html";
+var privacyPath = "datenschutz.html";
 
 // create folders for deploy
 async function generateFolders() {
