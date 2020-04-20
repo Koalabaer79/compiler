@@ -36,8 +36,8 @@ Es wird aus den generierten Unterseiten eine Übersicht generiert. Hierbei ist z
 
 - var urlName = "u-php.de";
 - var indexName = "Big Cities";
-- var imprintPath = "imprint.html";
-- var privacyPath = "privacy.html";
+- var imprintPath = "impressum.html";
+- var privacyPath = "datenschutz.html";
 
 ### Bildformate
 
